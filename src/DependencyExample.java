@@ -6,7 +6,7 @@ public class DependencyExample {
     @Test
     void startCar(){
         System.out.println("Car started");
-        Assert.fail();
+//        Assert.fail();
     }
 
     @Test(dependsOnMethods = {"startCar"})
